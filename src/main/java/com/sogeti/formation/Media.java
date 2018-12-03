@@ -57,4 +57,15 @@ public void setNbAccess(int nbAccess) {
 	this.nbAccess = nbAccess;
 }
 
+public boolean reserve(Media m)
+{
+	boolean result=false;
+	if (m.availability==true) 
+	{
+		m.setAvailability(false);
+		result=true;
+	}
+		
+	return result;
+}
 }
