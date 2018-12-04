@@ -35,5 +35,9 @@ public void setClassification(String classification) {
 	this.classification = classification;
 }
 
+public static void playVideo()
+{
+	
+}
 
 }
